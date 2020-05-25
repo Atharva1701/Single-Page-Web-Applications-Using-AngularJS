@@ -1,5 +1,5 @@
 # Single-Page-Web-Applications-Using-AngularJS
-Coursera Course offered by Johns Hopkins University 
+Coursera Course offered by Johns Hopkins University <br/>
 The Solutions for all the modules for the course.<br />
 <br/>
 > Module 1
