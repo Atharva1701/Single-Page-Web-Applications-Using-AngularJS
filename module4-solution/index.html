@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app = "MenuApp">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Restaurant Menu App</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="https://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css">
+</head>
+<style>
+	.jumbotron .btn {
+		margin : 5px;
+	}
+</style>
+<body>
+	<div class="container">
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-tabs nav-justified">
+					 <li ui-sref-active="active" ui-sref="home" role="presentation"><a href="#">Home</a></li>
+                    <li ui-sref-active="active" ui-sref="categories" role="presentation"><a href="#">Categories</a></li>
+				</ul>
+			</nav>
+			<h3>Restaurant Menu App</h3>
+		</div>
+		<ui-view></ui-view>
+	</div>
+
+	<!-- <script src="jquery-3.1.1.min.js"></script> -->
+	<script src="angular.min.js"></script>
+	<script src="angular-ui-router.min.js"></script>
+	<script src="modules/menuapp.module.js"></script>
+    <script src="modules/data.module.js"></script>
+    <script src="controllers/categories.controller.js"></script>
+    <script src="controllers/items.controller.js"></script>
+    <script src="services/menudata.service.js"></script>
+    <script src="components/categories.component.js"></script>
+    <script src="components/items.component.js"></script>
+    <script src="routes.js"></script>
+    <script src="templates/home.template.html"></script>
+    <script src="templates/categories.component.html"></script>
+    <script src="templates/categories.template.html"></script>
+    <script src="templates/items.component.html"></script>
+    <script src="templates/items.template.html"></script>
+</body>
+</html>
