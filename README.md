@@ -14,4 +14,9 @@ The Solutions for all the modules for the course.<br />
 * [Problem Description](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment3/Assignment-3.md)
 * [Solution](https://atharva1701.github.io/Single-Page-Web-Applications-Using-AngularJS/module3-solution/)
 * Due Date : 8th June 2020 IST 12.29 PM
+> Module 3
+* [Problem Description](https://github.com/jhu-ep-coursera/fullstack-course5/blob/master/assignments/assignment4/Assignment-4.md)
+* [Solution](https://atharva1701.github.io/Single-Page-Web-Applications-Using-AngularJS/module4%20-solution/#!/)
+* Due Date : 15th June 2020 IST 12.29 PM
+
 
